@@ -55,11 +55,56 @@
                 <div>
                     <h2>A charitable Journey for Building<span class="text-warning"> Successful </span>Future Generations</h2>
                     <p class="lead my-4">We are an operational organization, that plan and carry out substantial projects to accomplish our objectives which requires a great deal of careful planning, communication, and local involvement for each project. </p>
-                    <select class="form-select form-select-lg mb-3 donate-now" id="donate" ria-label=".form-select-sm example ">
-                        <option value="1" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Call (+233 551 875 704) to speak with a staff member to assist you and answer any questions you may have about your contribution.">Donate By Phone</option>
-                
-                        <option  value="2"  data-toggle="tooltip" data-placement="bottom" data-html="true" title="Account Name: Stree 4 Talent Foundation        Account No: 210117867140                          Swift Code: GTBIGHAC                                   Bank Name: Guaranty Trust Bank(Ghana)Ltd                                  Bank Address: 25 A,Castle Road,Ambassaorial Area,Accra -Ghana.">Donate By Bank</option> 
-                    </select>
+                    <!-- Button trigger modal -->
+                    <!--donate by phone-->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Donate By Phone</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-secondary" id="exampleModalLabel">To Donate By Phone</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-secondary">
+                                    <h3>Call (+233 551 875 704) to speak with a staff member to assist you and answer any questions you may have about your contribution.</h3>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--donate by phone-->
+
+                    <!--donate by bank-->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Donate By Bank</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-secondary" id="staticBackdropLabel">To Donate By Bank</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-secondary">
+                                    <h4>Account Name: Street 4 Talent Foundation</h4>
+                                    <h4>Account Number:<strong>210117867140</strong></h4>
+                                    <h4>Swift Code: <strong>GTBIGHAC</strong></h4>
+                                    <h4>Bank Name: Guaranty Trust Bank(Ghana) Ltd.</h4>
+                                    <h4><u>Bank Address: 25 A, Castle Road, Ambassadorial Area,</u>Accra-Ghana</h4>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--donate by bank-->
+
+
                 </div><img class=" img-fluid w-50 d-none d-sm-block " src="images/street4.jpg " alt=" "></div>
         </div>
     </section>
