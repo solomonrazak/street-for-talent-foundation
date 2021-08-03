@@ -20,3 +20,9 @@ function myFunction() {
 /*subscribe*/
 const form = document.getElementById('#form_input');
 console.log(form);
+
+
+/*jquery for tooltip*/
+$(function() {
+    $('[data-toggle="tooltip"]').tooltip()
+});
